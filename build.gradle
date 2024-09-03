@@ -40,6 +40,9 @@ dependencies {
   implementation 'jstl:jstl:1.2'
 
 
+  implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.21'
+  implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+
 
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
