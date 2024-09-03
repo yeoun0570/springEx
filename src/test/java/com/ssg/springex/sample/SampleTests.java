@@ -16,6 +16,7 @@ public class SampleTests {
     @Autowired
     private SampleService sampleService;
 
+    //DI컨테이너에서 생성하고 관리하는 객체를 확인할 수 있다.
     @Test
     public void testService() {
         log.info(sampleService);
