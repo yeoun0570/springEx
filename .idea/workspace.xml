@@ -4,26 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bfa4eb-2199-457d-bda4-5e3bf4178ac8" name="Changes" comment="스프링 학습">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/jdbcex/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/jdbcex/TodoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/EventSampleDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/SampleDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ssg/dao/ConnectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ssg/dao/TestHikariCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ssg/dao/TodoTest.java" afterDir="false" />
+    <list default="true" id="28bfa4eb-2199-457d-bda4-5e3bf4178ac8" name="Changes" comment="스프링 학습2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/calc/CalcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/calc/InputController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc/calcResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc/input.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssg/springex/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/SampleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/SampleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssg/springex/sample/SampleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ssg/springex/sample/SampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ssg/springex/sample/SampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +60,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -78,12 +68,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yeoun0570"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yeoun0570&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -108,38 +98,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build springEx.executor": "Run",
-    "Gradle.ConnectionTests.test1.executor": "Run",
-    "Gradle.ConnectionTests.testConnection.executor": "Run",
-    "Gradle.SampleTests.testService.executor": "Run",
-    "Gradle.TestHikariCP.executor": "Run",
-    "Gradle.TodoTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.931.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/study/spring/springEx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build springEx.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionTests.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionTests.testConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SampleTests.testService.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestHikariCP.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.931.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/spring/springEx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\study\spring\springEx\src\main\webapp\WEB-INF\spring" />
@@ -148,7 +138,7 @@
       <recent name="com.ssg.springex.sample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.931">
     <configuration name="ConnectionTests.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -342,7 +332,11 @@
       <workItem from="1725323364682" duration="1275000" />
       <workItem from="1725328421365" duration="677000" />
       <workItem from="1725329340951" duration="11000" />
-      <workItem from="1725332941444" duration="14879000" />
+      <workItem from="1725332941444" duration="15312000" />
+      <workItem from="1725408822300" duration="2849000" />
+      <workItem from="1725422028321" duration="210000" />
+      <workItem from="1725426967367" duration="181000" />
+      <workItem from="1725427162184" duration="5651000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 학습">
       <option name="closed" value="true" />
@@ -352,7 +346,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725333139029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="스프링 웹(DB + HikariCP)">
+      <option name="closed" value="true" />
+      <created>1725352381234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725352381234</updated>
+    </task>
+    <task id="LOCAL-00003" summary="스프링 학습2">
+      <option name="closed" value="true" />
+      <created>1725352412645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725352412645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +370,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="스프링 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 학습" />
+    <MESSAGE value="스프링 웹(DB + HikariCP)" />
+    <MESSAGE value="스프링 학습2" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 학습2" />
   </component>
 </project>
