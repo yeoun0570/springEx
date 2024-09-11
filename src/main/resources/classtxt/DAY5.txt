@@ -1,0 +1,38 @@
+1. 톰캣과 스프링이 연동되는 구조를 완성한 후 웹 어플리케이션에서 필수인 데이터베이스 설정
+    a. build.gadle :   implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.21'
+                       implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    b. root-context.xml 에 HikariCP 설정
+        i. HikariConfig 설정
+        ii. HikariDataSource 초기화
+
+2. MyBatis
+    a. 'Sql Mapping Framework'
+        i. SQL의 실행 결과를 객체지향으로 매핑해준다.
+    b. 라이브러리(모듈)이다. => 프레임워크가 아님
+
+3. MyBatis를 위한 스프링 설정 - SqlSessionFactory
+    a. MyBatis를 이용하기 위해서는 스프링에 설정해둔 HikariDataSource를 이용해서 SqlSessionFactory(Bean)을 설정한다.
+    b. root-context.xml에 설정
+
+4. MyBatis SQL => 파일(XML), 인터페이스, 어노테이션으로도 처리 가능하다.
+    a. Mapper 인터페이스를 활용하여 DB연동 테스트
+
+5. 결론
+    a. MyBatis와 스프링을 연동하고 매퍼 인터페이스를 활용하는 방식은 개발자가 실제 동작하는 클래스와 객체를 생성하지 않고 스프링에서 자동으로 생성되는 방식임을 알게되었다.
+
+6. 단점 및 장점
+    a. 스프링에서 자동으로 생성된 객체를 이용하기 때문에 개발자가 직접 코드를 수행할 수 없다는 단점이 있다.
+    b. 하지만 인터페이스만으로도 개발을 완료할 수 있다는장점이 크기 때문에 현업에서의 활용도가 높다.
+
+7. 현업에서는 SQL을 별도의 파일로 분리하여 작업하는 것을 권장한다. => XML
+    a. XML을 사용하는 이유
+        i. SQL이 길어지면 이를 어노테이션으로 처리하기가 복잡하기 때문이다.
+    b. XML과 매퍼 인터페이스를 결합하여 구성
+        i. 미퍼인터페이스 정의하고 메서드 선언
+        ii. 해당 XML파일을 작성(XML파일 이름이 매퍼인터페이스의 이름과 반드시 동일해야 한다.)
+        iii. <select>, <insert> <delete> 등 태그에 id 속성값을 매터페이스의 메서드 이름과 같게 작성
+        iv. root-context.xml에 있는 MyBatis 설정에 xml파일을 인식하도록 설정한다.
+            1. <property name="mapperLocations" value="classpath:/mappers/**/*.xml"></property>
+            2. 매퍼 파일들의 위치를 의미하며, resources의 경우 'classpath:' 접두어를 이용하여 인식되는 경로이다.
+            3. mappers 폴더 밑에 폴더가 있어도 관계없도록 '**'
+            4. 모든 xml을 의미하는 '*.xml'을 기술해준다.
